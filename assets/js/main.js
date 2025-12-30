@@ -265,13 +265,14 @@ function renderGrid(){
 }
 
 function escapeHtml(str){
-  return String(str).replace(/[&<>"']/g, (m) => ({
-    "&":"&amp;",
-    "<":"&lt;",
-    ">":"&gt;",
-    """:"&quot;",
-    "'":"&#39;"
-  }[m]));
+  const map = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  };
+  return String(str).replace(/[&<>"']/g, (m) => map[m]);
 }
 
 /* Modal viewer */
