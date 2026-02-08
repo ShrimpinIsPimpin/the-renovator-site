@@ -97,10 +97,22 @@ function initForm(){
 
     // If endpoint is configured later, it will post here.
     try {
-      const res = await fetch(CONFIG.FORM_ENDPOINT_URL, {
+      const params = new URLSearchParams();
+      params.set("name", payload.name);
+      params.set("phone", payload.phone);
+      params.set("email", payload.email || "");
+      params.set("cityAddress", payload.cityAddress);
+      params.set("serviceType", payload.serviceType);
+      params.set("description", payload.description);
+      params.set("sourcePage", window.location.href);
+
+      // honeypot (if your form has it; safe to include anyway)
+      params.set("company", payload.company || "");
+
+      await fetch(CONFIG.FORM_ENDPOINT_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
+        mode: "no-cors",
+        body: params
       });
 
       // If endpoint returns JSON, parse; otherwise just treat ok status as success
