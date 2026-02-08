@@ -91,7 +91,7 @@ function initForm(){
       existing.push(payload);
       localStorage.setItem(key, JSON.stringify(existing));
       form.reset();
-      status.textContent = "Saved (setup mode).";
+      status.textContent = "Submitted — we’ll reach out soon.";
       return;
     }
 
