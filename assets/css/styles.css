@@ -63,7 +63,7 @@ a{ color:inherit; text-decoration:none; }
   border-color: rgba(0,0,0,.08);
 }
 .btn--ghost{
-  background: rgba(255,255,255,.08);
+  background: rgba(255,0,0,.08);
   color: rgba(255,255,255,.92);
   border-color: rgba(255,255,255,.16);
 }
