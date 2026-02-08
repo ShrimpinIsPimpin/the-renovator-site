@@ -116,7 +116,7 @@ a{ color:inherit; text-decoration:none; }
 }
 .brand__logo{ height: 78px; width:auto; }
 
-@media (max-width: 720px){
+@media (max-width: 1440px){
   .brand__logo{ height: 56px; }
 }
 .nav{
