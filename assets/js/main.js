@@ -2,7 +2,7 @@
 
 const CONFIG = {
   // Later: paste your Google Apps Script (or other) endpoint URL here.
-  FORM_ENDPOINT_URL: "https://script.google.com/macros/s/AKfycbxBW5yiN7OFsIC1TMypXLPkVCJErM7QbZlrV_ljVgcicmcgPFXvUhBC79iwgYv1ZflL/exec"
+  FORM_ENDPOINT_URL: "https://script.google.com/macros/s/AKfycbxxuFF4g3PZ35NvbhTW4cpVFI6rFKmYqj3ABupTjHLexS8u-dBmC3A7uTkS5oXkpiT7/exec"
 };
 
 const $ = (sel, root=document) => root.querySelector(sel);
