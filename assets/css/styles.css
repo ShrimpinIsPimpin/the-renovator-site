@@ -103,7 +103,7 @@ a{ color:inherit; text-decoration:none; }
   position: sticky;
   top: 44px;
   z-index: 45;
-  background: rgba(5,8,15,.55);
+  background: rgba(0, 0, 0, 1);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
