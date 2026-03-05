@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-30T11:39:08.281485Z",
+  "generatedAt": "2026-03-05T00:00:00.000Z",
   "categories": [
     "Bathrooms",
     "Decks & Patios",
@@ -11,407 +11,7 @@
     "Open Concept",
     "Repairs"
   ],
-  "beforeAfter": [
-    {
-      "id": "Bathroom_1",
-      "category": "Bathrooms",
-      "label": "Bathrooms (Before/After)",
-      "before": {
-        "id": "BathroomBefore1",
-        "title": "BathroomBefore1",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomBefore1.jpg",
-        "rawName": "BathroomBefore1.jpg"
-      },
-      "after": {
-        "id": "BathroomAfter1",
-        "title": "BathroomAfter1",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomAfter1.jpg",
-        "rawName": "BathroomAfter1.jpg"
-      }
-    },
-    {
-      "id": "Bathroom_2",
-      "category": "Bathrooms",
-      "label": "Bathrooms (Before/After)",
-      "before": {
-        "id": "BathroomBefore2",
-        "title": "BathroomBefore2",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomBefore2.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomBefore2.jpg",
-        "rawName": "BathroomBefore2.jpg"
-      },
-      "after": {
-        "id": "BathroomAfter2",
-        "title": "BathroomAfter2",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomAfter2.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomAfter2.jpg",
-        "rawName": "BathroomAfter2.jpg"
-      }
-    },
-    {
-      "id": "Bathroom_3",
-      "category": "Bathrooms",
-      "label": "Bathrooms (Before/After)",
-      "before": {
-        "id": "BathroomBefore3",
-        "title": "BathroomBefore3",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomBefore3.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomBefore3.jpg",
-        "rawName": "BathroomBefore3.jpg"
-      },
-      "after": {
-        "id": "BathroomAfter3",
-        "title": "BathroomAfter3",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomAfter3.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomAfter3.jpg",
-        "rawName": "BathroomAfter3.jpg"
-      }
-    },
-    {
-      "id": "Bathroom_4",
-      "category": "Bathrooms",
-      "label": "Bathrooms (Before/After)",
-      "before": {
-        "id": "BathroomBefore4",
-        "title": "BathroomBefore4",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomBefore4.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomBefore4.jpg",
-        "rawName": "BathroomBefore4.jpg"
-      },
-      "after": {
-        "id": "BathroomAfter4",
-        "title": "BathroomAfter4",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomAfter4.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomAfter4.jpg",
-        "rawName": "BathroomAfter4.jpg"
-      }
-    },
-    {
-      "id": "Bathroom_5",
-      "category": "Bathrooms",
-      "label": "Bathrooms (Before/After)",
-      "before": {
-        "id": "BathroomBefore5",
-        "title": "BathroomBefore5",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomBefore5.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomBefore5.jpg",
-        "rawName": "BathroomBefore5.jpg"
-      },
-      "after": {
-        "id": "BathroomAfter5",
-        "title": "BathroomAfter5",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/BathroomAfter5.jpg",
-        "thumb": "assets/img/projects/thumb/BathroomAfter5.jpg",
-        "rawName": "BathroomAfter5.jpg"
-      }
-    },
-    {
-      "id": "Deck_1",
-      "category": "Decks & Patios",
-      "label": "Decks & Patios (Before/After)",
-      "before": {
-        "id": "DeckBefore1",
-        "title": "DeckBefore1",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/DeckBefore1.jpg",
-        "rawName": "DeckBefore1.jpg"
-      },
-      "after": {
-        "id": "DeckAfter1",
-        "title": "DeckAfter1",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/DeckAfter1.jpg",
-        "rawName": "DeckAfter1.jpg"
-      }
-    },
-    {
-      "id": "Deck_2",
-      "category": "Decks & Patios",
-      "label": "Decks & Patios (Before/After)",
-      "before": {
-        "id": "DeckBefore2",
-        "title": "DeckBefore2",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckBefore2.jpg",
-        "thumb": "assets/img/projects/thumb/DeckBefore2.jpg",
-        "rawName": "DeckBefore2.jpg"
-      },
-      "after": {
-        "id": "DeckAfter2",
-        "title": "DeckAfter2",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckAfter2.jpg",
-        "thumb": "assets/img/projects/thumb/DeckAfter2.jpg",
-        "rawName": "DeckAfter2.jpg"
-      }
-    },
-    {
-      "id": "Deck_3",
-      "category": "Decks & Patios",
-      "label": "Decks & Patios (Before/After)",
-      "before": {
-        "id": "DeckBefore3",
-        "title": "DeckBefore3",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckBefore3.jpg",
-        "thumb": "assets/img/projects/thumb/DeckBefore3.jpg",
-        "rawName": "DeckBefore3.jpg"
-      },
-      "after": {
-        "id": "DeckAfter3",
-        "title": "DeckAfter3",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckAfter3.jpg",
-        "thumb": "assets/img/projects/thumb/DeckAfter3.jpg",
-        "rawName": "DeckAfter3.jpg"
-      }
-    },
-    {
-      "id": "Deck_4",
-      "category": "Decks & Patios",
-      "label": "Decks & Patios (Before/After)",
-      "before": {
-        "id": "DeckBefore4",
-        "title": "DeckBefore4",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckBefore4.jpg",
-        "thumb": "assets/img/projects/thumb/DeckBefore4.jpg",
-        "rawName": "DeckBefore4.jpg"
-      },
-      "after": {
-        "id": "DeckAfter4",
-        "title": "DeckAfter4",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/DeckAfter4.jpg",
-        "thumb": "assets/img/projects/thumb/DeckAfter4.jpg",
-        "rawName": "DeckAfter4.jpg"
-      }
-    },
-    {
-      "id": "Fireplace_1",
-      "category": "Fireplaces",
-      "label": "Fireplaces (Before/After)",
-      "before": {
-        "id": "FireplaceBefore1",
-        "title": "FireplaceBefore1",
-        "category": "Fireplaces",
-        "src": "assets/img/projects/full/FireplaceBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/FireplaceBefore1.jpg",
-        "rawName": "FireplaceBefore1.jpg"
-      },
-      "after": {
-        "id": "FireplaceAfter1",
-        "title": "FireplaceAfter1",
-        "category": "Fireplaces",
-        "src": "assets/img/projects/full/FireplaceAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/FireplaceAfter1.jpg",
-        "rawName": "FireplaceAfter1.jpg"
-      }
-    },
-    {
-      "id": "Garage_1",
-      "category": "Garage Work",
-      "label": "Garage Work (Before/After)",
-      "before": {
-        "id": "GarageBefore1",
-        "title": "GarageBefore1",
-        "category": "Garage Work",
-        "src": "assets/img/projects/full/GarageBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/GarageBefore1.jpg",
-        "rawName": "GarageBefore1.jpg"
-      },
-      "after": {
-        "id": "GarageAfter1",
-        "title": "GarageAfter1",
-        "category": "Garage Work",
-        "src": "assets/img/projects/full/GarageAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/GarageAfter1.jpg",
-        "rawName": "GarageAfter1.jpg"
-      }
-    },
-    {
-      "id": "Kitchen_1",
-      "category": "Kitchens",
-      "label": "Kitchens (Before/After)",
-      "before": {
-        "id": "KitchenBefore1",
-        "title": "KitchenBefore1",
-        "category": "Kitchens",
-        "src": "assets/img/projects/full/KitchenBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/KitchenBefore1.jpg",
-        "rawName": "KitchenBefore1.jpg"
-      },
-      "after": {
-        "id": "KitchenAfter1",
-        "title": "KitchenAfter1",
-        "category": "Kitchens",
-        "src": "assets/img/projects/full/KitchenAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/KitchenAfter1.jpg",
-        "rawName": "KitchenAfter1.jpg"
-      }
-    },
-    {
-      "id": "Kitchen_2",
-      "category": "Kitchens",
-      "label": "Kitchens (Before/After)",
-      "before": {
-        "id": "KitchenBefore2",
-        "title": "KitchenBefore2",
-        "category": "Kitchens",
-        "src": "assets/img/projects/full/KitchenBefore2.jpg",
-        "thumb": "assets/img/projects/thumb/KitchenBefore2.jpg",
-        "rawName": "KitchenBefore2.jpg"
-      },
-      "after": {
-        "id": "KitchenAfter2",
-        "title": "KitchenAfter2",
-        "category": "Kitchens",
-        "src": "assets/img/projects/full/KitchenAfter2.jpg",
-        "thumb": "assets/img/projects/thumb/KitchenAfter2.jpg",
-        "rawName": "KitchenAfter2.jpg"
-      }
-    },
-    {
-      "id": "Patio_1",
-      "category": "Decks & Patios",
-      "label": "Decks & Patios (Before/After)",
-      "before": {
-        "id": "PatioBefore1",
-        "title": "PatioBefore1",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/PatioBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/PatioBefore1.jpg",
-        "rawName": "PatioBefore1.jpg"
-      },
-      "after": {
-        "id": "PatioAfter1",
-        "title": "PatioAfter1",
-        "category": "Decks & Patios",
-        "src": "assets/img/projects/full/PatioAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/PatioAfter1.jpg",
-        "rawName": "PatioAfter1.jpg"
-      }
-    },
-    {
-      "id": "Shower_1",
-      "category": "Bathrooms",
-      "label": "Bathrooms (Before/After)",
-      "before": {
-        "id": "ShowerBefore1",
-        "title": "ShowerBefore1",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/ShowerBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/ShowerBefore1.jpg",
-        "rawName": "ShowerBefore1.jpg"
-      },
-      "after": {
-        "id": "ShowerAfter1",
-        "title": "ShowerAfter1",
-        "category": "Bathrooms",
-        "src": "assets/img/projects/full/ShowerAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/ShowerAfter1.jpg",
-        "rawName": "ShowerAfter1.jpg"
-      }
-    },
-    {
-      "id": "SubfloorRepair_1",
-      "category": "Repairs",
-      "label": "Repairs (Before/After)",
-      "before": {
-        "id": "SubfloorRepairBefore1",
-        "title": "SubfloorRepairBefore1",
-        "category": "Repairs",
-        "src": "assets/img/projects/full/SubfloorRepairBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/SubfloorRepairBefore1.jpg",
-        "rawName": "SubfloorRepairBefore1.jpg"
-      },
-      "after": {
-        "id": "SubfloorRepairAfter1",
-        "title": "SubfloorRepairAfter1",
-        "category": "Repairs",
-        "src": "assets/img/projects/full/SubfloorRepairAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/SubfloorRepairAfter1.jpg",
-        "rawName": "SubfloorRepairAfter1.jpg"
-      }
-    },
-    {
-      "id": "WallRemoval_1",
-      "category": "Open Concept",
-      "label": "Open Concept (Before/After)",
-      "before": {
-        "id": "WallRemovalBefore1",
-        "title": "WallRemovalBefore1",
-        "category": "Open Concept",
-        "src": "assets/img/projects/full/WallRemovalBefore1.jpg",
-        "thumb": "assets/img/projects/thumb/WallRemovalBefore1.jpg",
-        "rawName": "WallRemovalBefore1.jpg"
-      },
-      "after": {
-        "id": "WallRemovalAfter1",
-        "title": "WallRemovalAfter1",
-        "category": "Open Concept",
-        "src": "assets/img/projects/full/WallRemovalAfter1.jpg",
-        "thumb": "assets/img/projects/thumb/WallRemovalAfter1.jpg",
-        "rawName": "WallRemovalAfter1.jpg"
-      }
-    },
-    {
-      "id": "WallRemoval_2",
-      "category": "Open Concept",
-      "label": "Open Concept (Before/After)",
-      "before": {
-        "id": "WallRemovalBefore2",
-        "title": "WallRemovalBefore2",
-        "category": "Open Concept",
-        "src": "assets/img/projects/full/WallRemovalBefore2.jpg",
-        "thumb": "assets/img/projects/thumb/WallRemovalBefore2.jpg",
-        "rawName": "WallRemovalBefore2.jpg"
-      },
-      "after": {
-        "id": "WallRemovalAfter2",
-        "title": "WallRemovalAfter2",
-        "category": "Open Concept",
-        "src": "assets/img/projects/full/WallRemovalAfter2.jpg",
-        "thumb": "assets/img/projects/thumb/WallRemovalAfter2.jpg",
-        "rawName": "WallRemovalAfter2.jpg"
-      }
-    },
-    {
-      "id": "WallRemoval_3",
-      "category": "Open Concept",
-      "label": "Open Concept (Before/After)",
-      "before": {
-        "id": "WallRemovalBefore3",
-        "title": "WallRemovalBefore3",
-        "category": "Open Concept",
-        "src": "assets/img/projects/full/WallRemovalBefore3.jpg",
-        "thumb": "assets/img/projects/thumb/WallRemovalBefore3.jpg",
-        "rawName": "WallRemovalBefore3.jpg"
-      },
-      "after": {
-        "id": "WallRemovalAfter3",
-        "title": "WallRemovalAfter3",
-        "category": "Open Concept",
-        "src": "assets/img/projects/full/WallRemovalAfter3.jpg",
-        "thumb": "assets/img/projects/thumb/WallRemovalAfter3.jpg",
-        "rawName": "WallRemovalAfter3.jpg"
-      }
-    }
-  ],
+  "beforeAfter": [],
   "collections": [
     {
       "id": "FullRemodel1",
@@ -479,181 +79,663 @@
           "thumb": "assets/img/projects/thumb/FullRemodel1-7.jpg",
           "rawName": "FullRemodel1-7.jpg",
           "order": 7
-        }
-      ]
-    },
-    {
-      "id": "FullRemodel2",
-      "category": "Full Remodels",
-      "photos": [
-        {
-          "id": "FullRemodel2",
-          "title": "FullRemodel2",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel2.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel2.jpg",
-          "rawName": "FullRemodel2.jpg",
-          "order": 1
         },
         {
-          "id": "FullRemodel2-2",
-          "title": "FullRemodel2 2",
+          "id": "FullRemodel1-8",
+          "title": "FullRemodel1 8",
           "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel2-2.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel2-2.jpg",
-          "rawName": "FullRemodel2-2.jpg",
-          "order": 2
-        },
-        {
-          "id": "FullRemodel2-3",
-          "title": "FullRemodel2 3",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel2-3.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel2-3.jpg",
-          "rawName": "FullRemodel2-3.jpg",
-          "order": 3
-        },
-        {
-          "id": "FullRemodel2-4",
-          "title": "FullRemodel2 4",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel2-4.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel2-4.jpg",
-          "rawName": "FullRemodel2-4.jpg",
-          "order": 4
-        },
-        {
-          "id": "FullRemodel2-5",
-          "title": "FullRemodel2 5",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel2-5.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel2-5.jpg",
-          "rawName": "FullRemodel2-5.jpg",
-          "order": 5
-        }
-      ]
-    },
-    {
-      "id": "FullRemodel3",
-      "category": "Full Remodels",
-      "photos": [
-        {
-          "id": "FullRemodel3",
-          "title": "FullRemodel3",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3.jpg",
-          "rawName": "FullRemodel3.jpg",
-          "order": 1
-        },
-        {
-          "id": "FullRemodel3-2",
-          "title": "FullRemodel3 2",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-2.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-2.jpg",
-          "rawName": "FullRemodel3-2.jpg",
-          "order": 2
-        },
-        {
-          "id": "FullRemodel3-3",
-          "title": "FullRemodel3 3",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-3.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-3.jpg",
-          "rawName": "FullRemodel3-3.jpg",
-          "order": 3
-        },
-        {
-          "id": "FullRemodel3-4",
-          "title": "FullRemodel3 4",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-4.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-4.jpg",
-          "rawName": "FullRemodel3-4.jpg",
-          "order": 4
-        },
-        {
-          "id": "FullRemodel3-5",
-          "title": "FullRemodel3 5",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-5.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-5.jpg",
-          "rawName": "FullRemodel3-5.jpg",
-          "order": 5
-        },
-        {
-          "id": "FullRemodel3-6",
-          "title": "FullRemodel3 6",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-6.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-6.jpg",
-          "rawName": "FullRemodel3-6.jpg",
-          "order": 6
-        },
-        {
-          "id": "FullRemodel3-7",
-          "title": "FullRemodel3 7",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-7.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-7.jpg",
-          "rawName": "FullRemodel3-7.jpg",
-          "order": 7
-        },
-        {
-          "id": "FullRemodel3-8",
-          "title": "FullRemodel3 8",
-          "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-8.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-8.jpg",
-          "rawName": "FullRemodel3-8.jpg",
+          "src": "assets/img/projects/full/FullRemodel1-8.jpg",
+          "thumb": "assets/img/projects/thumb/FullRemodel1-8.jpg",
+          "rawName": "FullRemodel1-8.jpg",
           "order": 8
         },
         {
-          "id": "FullRemodel3-9",
-          "title": "FullRemodel3 9",
+          "id": "FullRemodel1-9",
+          "title": "FullRemodel1 9",
           "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-9.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-9.jpg",
-          "rawName": "FullRemodel3-9.jpg",
+          "src": "assets/img/projects/full/FullRemodel1-9.jpg",
+          "thumb": "assets/img/projects/thumb/FullRemodel1-9.jpg",
+          "rawName": "FullRemodel1-9.jpg",
           "order": 9
         },
         {
-          "id": "FullRemodel3-10",
-          "title": "FullRemodel3 10",
+          "id": "FullRemodel1-10",
+          "title": "FullRemodel1 10",
           "category": "Full Remodels",
-          "src": "assets/img/projects/full/FullRemodel3-10.jpg",
-          "thumb": "assets/img/projects/thumb/FullRemodel3-10.jpg",
-          "rawName": "FullRemodel3-10.jpg",
+          "src": "assets/img/projects/full/FullRemodel1-10.jpg",
+          "thumb": "assets/img/projects/thumb/FullRemodel1-10.jpg",
+          "rawName": "FullRemodel1-10.jpg",
           "order": 10
+        },
+        {
+          "id": "FullRemodel1-11",
+          "title": "FullRemodel1 11",
+          "category": "Full Remodels",
+          "src": "assets/img/projects/full/FullRemodel1-11.jpg",
+          "thumb": "assets/img/projects/thumb/FullRemodel1-11.jpg",
+          "rawName": "FullRemodel1-11.jpg",
+          "order": 11
+        },
+        {
+          "id": "FullRemodel1-12",
+          "title": "FullRemodel1 12",
+          "category": "Full Remodels",
+          "src": "assets/img/projects/full/FullRemodel1-12.jpg",
+          "thumb": "assets/img/projects/thumb/FullRemodel1-12.jpg",
+          "rawName": "FullRemodel1-12.jpg",
+          "order": 12
         }
       ]
     }
   ],
   "singles": [
     {
-      "id": "BathroomRemodel1",
-      "title": "BathroomRemodel1",
+      "id": "BathroomAfter1",
+      "title": "BathroomAfter1",
       "category": "Bathrooms",
-      "src": "assets/img/projects/full/BathroomRemodel1.jpg",
-      "thumb": "assets/img/projects/thumb/BathroomRemodel1.jpg",
-      "rawName": "BathroomRemodel1.jpg"
+      "src": "assets/img/projects/full/BathroomAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter1.jpg",
+      "rawName": "BathroomAfter1.jpg"
     },
     {
-      "id": "VanityInstall1",
-      "title": "VanityInstall1",
+      "id": "BathroomAfter2",
+      "title": "BathroomAfter2",
       "category": "Bathrooms",
-      "src": "assets/img/projects/full/VanityInstall1.jpg",
-      "thumb": "assets/img/projects/thumb/VanityInstall1.jpg",
-      "rawName": "VanityInstall1.jpg"
+      "src": "assets/img/projects/full/BathroomAfter2.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter2.jpg",
+      "rawName": "BathroomAfter2.jpg"
     },
     {
-      "id": "Siding1",
-      "title": "Siding1",
+      "id": "BathroomAfter3",
+      "title": "BathroomAfter3",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter3.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter3.jpg",
+      "rawName": "BathroomAfter3.jpg"
+    },
+    {
+      "id": "BathroomAfter4",
+      "title": "BathroomAfter4",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter4.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter4.jpg",
+      "rawName": "BathroomAfter4.jpg"
+    },
+    {
+      "id": "BathroomAfter5",
+      "title": "BathroomAfter5",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter5.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter5.jpg",
+      "rawName": "BathroomAfter5.jpg"
+    },
+    {
+      "id": "BathroomAfter6",
+      "title": "BathroomAfter6",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter6.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter6.jpg",
+      "rawName": "BathroomAfter6.jpg"
+    },
+    {
+      "id": "BathroomAfter7",
+      "title": "BathroomAfter7",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter7.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter7.jpg",
+      "rawName": "BathroomAfter7.jpg"
+    },
+    {
+      "id": "BathroomAfter8",
+      "title": "BathroomAfter8",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter8.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter8.jpg",
+      "rawName": "BathroomAfter8.jpg"
+    },
+    {
+      "id": "BathroomAfter9",
+      "title": "BathroomAfter9",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter9.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter9.jpg",
+      "rawName": "BathroomAfter9.jpg"
+    },
+    {
+      "id": "BathroomAfter10",
+      "title": "BathroomAfter10",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter10.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter10.jpg",
+      "rawName": "BathroomAfter10.jpg"
+    },
+    {
+      "id": "BathroomAfter11",
+      "title": "BathroomAfter11",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter11.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter11.jpg",
+      "rawName": "BathroomAfter11.jpg"
+    },
+    {
+      "id": "BathroomAfter12",
+      "title": "BathroomAfter12",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter12.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter12.jpg",
+      "rawName": "BathroomAfter12.jpg"
+    },
+    {
+      "id": "BathroomAfter13",
+      "title": "BathroomAfter13",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter13.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter13.jpg",
+      "rawName": "BathroomAfter13.jpg"
+    },
+    {
+      "id": "BathroomAfter14",
+      "title": "BathroomAfter14",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter14.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter14.jpg",
+      "rawName": "BathroomAfter14.jpg"
+    },
+    {
+      "id": "BathroomAfter15",
+      "title": "BathroomAfter15",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter15.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter15.jpg",
+      "rawName": "BathroomAfter15.jpg"
+    },
+    {
+      "id": "BathroomAfter16",
+      "title": "BathroomAfter16",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter16.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter16.jpg",
+      "rawName": "BathroomAfter16.jpg"
+    },
+    {
+      "id": "BathroomAfter17",
+      "title": "BathroomAfter17",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter17.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter17.jpg",
+      "rawName": "BathroomAfter17.jpg"
+    },
+    {
+      "id": "BathroomAfter18",
+      "title": "BathroomAfter18",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter18.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter18.jpg",
+      "rawName": "BathroomAfter18.jpg"
+    },
+    {
+      "id": "BathroomAfter19",
+      "title": "BathroomAfter19",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter19.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter19.jpg",
+      "rawName": "BathroomAfter19.jpg"
+    },
+    {
+      "id": "BathroomAfter20",
+      "title": "BathroomAfter20",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter20.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter20.jpg",
+      "rawName": "BathroomAfter20.jpg"
+    },
+    {
+      "id": "BathroomAfter21",
+      "title": "BathroomAfter21",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter21.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter21.jpg",
+      "rawName": "BathroomAfter21.jpg"
+    },
+    {
+      "id": "BathroomAfter22",
+      "title": "BathroomAfter22",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter22.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter22.jpg",
+      "rawName": "BathroomAfter22.jpg"
+    },
+    {
+      "id": "BathroomAfter23",
+      "title": "BathroomAfter23",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter23.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter23.jpg",
+      "rawName": "BathroomAfter23.jpg"
+    },
+    {
+      "id": "BathroomAfter24",
+      "title": "BathroomAfter24",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter24.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter24.jpg",
+      "rawName": "BathroomAfter24.jpg"
+    },
+    {
+      "id": "BathroomAfter25",
+      "title": "BathroomAfter25",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter25.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter25.jpg",
+      "rawName": "BathroomAfter25.jpg"
+    },
+    {
+      "id": "BathroomAfter26",
+      "title": "BathroomAfter26",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter26.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter26.jpg",
+      "rawName": "BathroomAfter26.jpg"
+    },
+    {
+      "id": "BathroomAfter27",
+      "title": "BathroomAfter27",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter27.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter27.jpg",
+      "rawName": "BathroomAfter27.jpg"
+    },
+    {
+      "id": "BathroomAfter28",
+      "title": "BathroomAfter28",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter28.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter28.jpg",
+      "rawName": "BathroomAfter28.jpg"
+    },
+    {
+      "id": "BathroomAfter29",
+      "title": "BathroomAfter29",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter29.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter29.jpg",
+      "rawName": "BathroomAfter29.jpg"
+    },
+    {
+      "id": "BathroomAfter30",
+      "title": "BathroomAfter30",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter30.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter30.jpg",
+      "rawName": "BathroomAfter30.jpg"
+    },
+    {
+      "id": "BathroomAfter31",
+      "title": "BathroomAfter31",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter31.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter31.jpg",
+      "rawName": "BathroomAfter31.jpg"
+    },
+    {
+      "id": "BathroomAfter32",
+      "title": "BathroomAfter32",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter32.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter32.jpg",
+      "rawName": "BathroomAfter32.jpg"
+    },
+    {
+      "id": "BathroomAfter33",
+      "title": "BathroomAfter33",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter33.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter33.jpg",
+      "rawName": "BathroomAfter33.jpg"
+    },
+    {
+      "id": "BathroomAfter34",
+      "title": "BathroomAfter34",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter34.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter34.jpg",
+      "rawName": "BathroomAfter34.jpg"
+    },
+    {
+      "id": "BathroomAfter35",
+      "title": "BathroomAfter35",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter35.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter35.jpg",
+      "rawName": "BathroomAfter35.jpg"
+    },
+    {
+      "id": "BathroomAfter36",
+      "title": "BathroomAfter36",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter36.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter36.jpg",
+      "rawName": "BathroomAfter36.jpg"
+    },
+    {
+      "id": "BathroomAfter37",
+      "title": "BathroomAfter37",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter37.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter37.jpg",
+      "rawName": "BathroomAfter37.jpg"
+    },
+    {
+      "id": "BathroomAfter38",
+      "title": "BathroomAfter38",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter38.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter38.jpg",
+      "rawName": "BathroomAfter38.jpg"
+    },
+    {
+      "id": "BathroomAfter39",
+      "title": "BathroomAfter39",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter39.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter39.jpg",
+      "rawName": "BathroomAfter39.jpg"
+    },
+    {
+      "id": "BathroomAfter40",
+      "title": "BathroomAfter40",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter40.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter40.jpg",
+      "rawName": "BathroomAfter40.jpg"
+    },
+    {
+      "id": "BathroomAfter41",
+      "title": "BathroomAfter41",
+      "category": "Bathrooms",
+      "src": "assets/img/projects/full/BathroomAfter41.jpg",
+      "thumb": "assets/img/projects/thumb/BathroomAfter41.jpg",
+      "rawName": "BathroomAfter41.jpg"
+    },
+    {
+      "id": "DeckAfter1",
+      "title": "DeckAfter1",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter1.jpg",
+      "rawName": "DeckAfter1.jpg"
+    },
+    {
+      "id": "DeckAfter2",
+      "title": "DeckAfter2",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter2.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter2.jpg",
+      "rawName": "DeckAfter2.jpg"
+    },
+    {
+      "id": "DeckAfter3",
+      "title": "DeckAfter3",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter3.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter3.jpg",
+      "rawName": "DeckAfter3.jpg"
+    },
+    {
+      "id": "DeckAfter4",
+      "title": "DeckAfter4",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter4.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter4.jpg",
+      "rawName": "DeckAfter4.jpg"
+    },
+    {
+      "id": "DeckAfter5",
+      "title": "DeckAfter5",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter5.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter5.jpg",
+      "rawName": "DeckAfter5.jpg"
+    },
+    {
+      "id": "DeckAfter6",
+      "title": "DeckAfter6",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter6.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter6.jpg",
+      "rawName": "DeckAfter6.jpg"
+    },
+    {
+      "id": "DeckAfter7",
+      "title": "DeckAfter7",
+      "category": "Decks & Patios",
+      "src": "assets/img/projects/full/DeckAfter7.jpg",
+      "thumb": "assets/img/projects/thumb/DeckAfter7.jpg",
+      "rawName": "DeckAfter7.jpg"
+    },
+    {
+      "id": "FireplaceAfter1",
+      "title": "FireplaceAfter1",
+      "category": "Fireplaces",
+      "src": "assets/img/projects/full/FireplaceAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/FireplaceAfter1.jpg",
+      "rawName": "FireplaceAfter1.jpg"
+    },
+    {
+      "id": "FireplaceAfter2",
+      "title": "FireplaceAfter2",
+      "category": "Fireplaces",
+      "src": "assets/img/projects/full/FireplaceAfter2.jpg",
+      "thumb": "assets/img/projects/thumb/FireplaceAfter2.jpg",
+      "rawName": "FireplaceAfter2.jpg"
+    },
+    {
+      "id": "FireplaceAfter3",
+      "title": "FireplaceAfter3",
+      "category": "Fireplaces",
+      "src": "assets/img/projects/full/FireplaceAfter3.jpg",
+      "thumb": "assets/img/projects/thumb/FireplaceAfter3.jpg",
+      "rawName": "FireplaceAfter3.jpg"
+    },
+    {
+      "id": "FireplaceAfter4",
+      "title": "FireplaceAfter4",
+      "category": "Fireplaces",
+      "src": "assets/img/projects/full/FireplaceAfter4.jpg",
+      "thumb": "assets/img/projects/thumb/FireplaceAfter4.jpg",
+      "rawName": "FireplaceAfter4.jpg"
+    },
+    {
+      "id": "GarageAfter1",
+      "title": "GarageAfter1",
+      "category": "Garage Work",
+      "src": "assets/img/projects/full/GarageAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/GarageAfter1.jpg",
+      "rawName": "GarageAfter1.jpg"
+    },
+    {
+      "id": "KitchenAfter1",
+      "title": "KitchenAfter1",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter1.jpg",
+      "rawName": "KitchenAfter1.jpg"
+    },
+    {
+      "id": "KitchenAfter2",
+      "title": "KitchenAfter2",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter2.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter2.jpg",
+      "rawName": "KitchenAfter2.jpg"
+    },
+    {
+      "id": "KitchenAfter3",
+      "title": "KitchenAfter3",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter3.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter3.jpg",
+      "rawName": "KitchenAfter3.jpg"
+    },
+    {
+      "id": "KitchenAfter4",
+      "title": "KitchenAfter4",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter4.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter4.jpg",
+      "rawName": "KitchenAfter4.jpg"
+    },
+    {
+      "id": "KitchenAfter5",
+      "title": "KitchenAfter5",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter5.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter5.jpg",
+      "rawName": "KitchenAfter5.jpg"
+    },
+    {
+      "id": "KitchenAfter6",
+      "title": "KitchenAfter6",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter6.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter6.jpg",
+      "rawName": "KitchenAfter6.jpg"
+    },
+    {
+      "id": "KitchenAfter7",
+      "title": "KitchenAfter7",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter7.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter7.jpg",
+      "rawName": "KitchenAfter7.jpg"
+    },
+    {
+      "id": "KitchenAfter8",
+      "title": "KitchenAfter8",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter8.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter8.jpg",
+      "rawName": "KitchenAfter8.jpg"
+    },
+    {
+      "id": "KitchenAfter9",
+      "title": "KitchenAfter9",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter9.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter9.jpg",
+      "rawName": "KitchenAfter9.jpg"
+    },
+    {
+      "id": "KitchenAfter10",
+      "title": "KitchenAfter10",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter10.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter10.jpg",
+      "rawName": "KitchenAfter10.jpg"
+    },
+    {
+      "id": "KitchenAfter11",
+      "title": "KitchenAfter11",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter11.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter11.jpg",
+      "rawName": "KitchenAfter11.jpg"
+    },
+    {
+      "id": "KitchenAfter12",
+      "title": "KitchenAfter12",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter12.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter12.jpg",
+      "rawName": "KitchenAfter12.jpg"
+    },
+    {
+      "id": "KitchenAfter13",
+      "title": "KitchenAfter13",
+      "category": "Kitchens",
+      "src": "assets/img/projects/full/KitchenAfter13.jpg",
+      "thumb": "assets/img/projects/thumb/KitchenAfter13.jpg",
+      "rawName": "KitchenAfter13.jpg"
+    },
+    {
+      "id": "SidingAfter1",
+      "title": "SidingAfter1",
       "category": "Exterior",
-      "src": "assets/img/projects/full/Siding1.jpg",
-      "thumb": "assets/img/projects/thumb/Siding1.jpg",
-      "rawName": "Siding1.jpg"
+      "src": "assets/img/projects/full/SidingAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter1.jpg",
+      "rawName": "SidingAfter1.jpg"
+    },
+    {
+      "id": "SidingAfter2",
+      "title": "SidingAfter2",
+      "category": "Exterior",
+      "src": "assets/img/projects/full/SidingAfter2.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter2.jpg",
+      "rawName": "SidingAfter2.jpg"
+    },
+    {
+      "id": "SidingAfter3",
+      "title": "SidingAfter3",
+      "category": "Exterior",
+      "src": "assets/img/projects/full/SidingAfter3.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter3.jpg",
+      "rawName": "SidingAfter3.jpg"
+    },
+    {
+      "id": "SidingAfter4",
+      "title": "SidingAfter4",
+      "category": "Exterior",
+      "src": "assets/img/projects/full/SidingAfter4.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter4.jpg",
+      "rawName": "SidingAfter4.jpg"
+    },
+    {
+      "id": "SidingAfter5",
+      "title": "SidingAfter5",
+      "category": "Exterior",
+      "src": "assets/img/projects/full/SidingAfter5.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter5.jpg",
+      "rawName": "SidingAfter5.jpg"
+    },
+    {
+      "id": "SidingAfter6",
+      "title": "SidingAfter6",
+      "category": "Exterior",
+      "src": "assets/img/projects/full/SidingAfter6.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter6.jpg",
+      "rawName": "SidingAfter6.jpg"
+    },
+    {
+      "id": "SidingAfter7",
+      "title": "SidingAfter7",
+      "category": "Exterior",
+      "src": "assets/img/projects/full/SidingAfter7.jpg",
+      "thumb": "assets/img/projects/thumb/SidingAfter7.jpg",
+      "rawName": "SidingAfter7.jpg"
+    },
+    {
+      "id": "WallRemovalAfter1",
+      "title": "WallRemovalAfter1",
+      "category": "Open Concept",
+      "src": "assets/img/projects/full/WallRemovalAfter1.jpg",
+      "thumb": "assets/img/projects/thumb/WallRemovalAfter1.jpg",
+      "rawName": "WallRemovalAfter1.jpg"
+    },
+    {
+      "id": "WallRemovalAfter2",
+      "title": "WallRemovalAfter2",
+      "category": "Open Concept",
+      "src": "assets/img/projects/full/WallRemovalAfter2.jpg",
+      "thumb": "assets/img/projects/thumb/WallRemovalAfter2.jpg",
+      "rawName": "WallRemovalAfter2.jpg"
+    },
+    {
+      "id": "WallRemovalAfter3",
+      "title": "WallRemovalAfter3",
+      "category": "Open Concept",
+      "src": "assets/img/projects/full/WallRemovalAfter3.jpg",
+      "thumb": "assets/img/projects/thumb/WallRemovalAfter3.jpg",
+      "rawName": "WallRemovalAfter3.jpg"
     }
   ]
 }
