@@ -1,7 +1,6 @@
 /* The Renovator — main JS (static / GitHub Pages friendly) */
 
 const CONFIG = {
-  // Later: paste your Google Apps Script (or other) endpoint URL here.
   FORM_ENDPOINT_URL: "https://script.google.com/macros/s/AKfycbxN0iPJCbPNS7pAqKn_J_GeCNBefoNcTuJRsUa8c6xiV3z1iQAXpEb84Oq-_Fiv7syh/exec"
 };
 
@@ -9,7 +8,6 @@ const $ = (sel, root=document) => root.querySelector(sel);
 const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 
 function formatTitle(rawId){
-  // Turns "WallRemovalAfter1" -> "Wall Removal"
   const cleaned = rawId
     .replace(/(Before|After)\d+$/i, "")
     .replace(/\d+$/,"")
@@ -29,7 +27,6 @@ function initNav(){
     toggle.setAttribute("aria-expanded", String(open));
   });
 
-  // close menu when clicking a link (mobile)
   nav.addEventListener("click", (e) => {
     const a = e.target.closest("a");
     if (!a) return;
@@ -37,7 +34,6 @@ function initNav(){
     toggle.setAttribute("aria-expanded", "false");
   });
 
-  // close on outside click
   document.addEventListener("click", (e) => {
     if (!nav.classList.contains("isOpen")) return;
     if (e.target.closest(".nav") || e.target.closest(".navToggle")) return;
@@ -62,7 +58,6 @@ function initForm(){
     ev.preventDefault();
     status.textContent = "";
 
-    // HTML5 validity check
     if (!form.reportValidity()) return;
 
     const payload = {
@@ -74,17 +69,15 @@ function initForm(){
       description: form.description.value.trim(),
       sourcePage: window.location.href,
       createdAt: new Date().toISOString(),
-      company: (form.company?.value || "").trim() // honeypot
+      company: (form.company?.value || "").trim()
     };
 
-    // Honeypot: silently accept
     if (payload.company) {
       form.reset();
       status.textContent = "Submitted.";
       return;
     }
 
-    // If endpoint is not configured yet, save locally.
     if (!CONFIG.FORM_ENDPOINT_URL) {
       const key = "renovator_leads";
       const existing = JSON.parse(localStorage.getItem(key) || "[]");
@@ -95,7 +88,6 @@ function initForm(){
       return;
     }
 
-    // If endpoint is configured later, it will post here.
     try {
       const params = new URLSearchParams();
       params.set("name", payload.name);
@@ -105,8 +97,6 @@ function initForm(){
       params.set("serviceType", payload.serviceType);
       params.set("description", payload.description);
       params.set("sourcePage", window.location.href);
-
-      // honeypot (if your form has it; safe to include anyway)
       params.set("company", payload.company || "");
 
       await fetch(CONFIG.FORM_ENDPOINT_URL, {
@@ -115,28 +105,15 @@ function initForm(){
         body: params
       });
 
-      // If endpoint returns JSON, parse; otherwise just treat ok status as success
-      let data = {};
-      try { data = await res.json(); } catch (_) {}
-
-      if (!res.ok || (data.ok === false)) {
-        // Keep it silent (site is not published yet). Save locally as fallback.
-        const key = "renovator_leads";
-        const existing = JSON.parse(localStorage.getItem(key) || "[]");
-        existing.push(payload);
-        localStorage.setItem(key, JSON.stringify(existing));
-      }
-
       form.reset();
       status.textContent = "Submitted.";
     } catch (_) {
-      // Silent fallback
       const key = "renovator_leads";
       const existing = JSON.parse(localStorage.getItem(key) || "[]");
       existing.push(payload);
       localStorage.setItem(key, JSON.stringify(existing));
       form.reset();
-      status.textContent = "Saved (setup mode).";
+      status.textContent = "Saved locally.";
     }
   });
 }
@@ -151,7 +128,6 @@ let GALLERY = {
 function buildTilesFromData(data){
   const tiles = [];
 
-  // Before/after
   for (const pair of (data.beforeAfter || [])) {
     tiles.push({
       type: "pair",
@@ -163,7 +139,6 @@ function buildTilesFromData(data){
     });
   }
 
-  // Full remodel collections
   for (const col of (data.collections || [])) {
     const first = col.photos?.[0];
     if (!first) continue;
@@ -178,7 +153,6 @@ function buildTilesFromData(data){
     });
   }
 
-  // Singles
   for (const s of (data.singles || [])) {
     tiles.push({
       type: "single",
@@ -190,7 +164,6 @@ function buildTilesFromData(data){
     });
   }
 
-  // Sort by category then title
   tiles.sort((a,b) => (a.category.localeCompare(b.category) || a.title.localeCompare(b.title)));
   return tiles;
 }
@@ -287,7 +260,6 @@ function escapeHtml(str){
   return String(str).replace(/[&<>"']/g, (m) => map[m]);
 }
 
-/* Modal viewer */
 function initModal(){
   const modal = $("#modal");
   const body = $("#modalBody");
@@ -318,6 +290,7 @@ function initModal(){
     GALLERY.activeIndex = (GALLERY.activeIndex - 1 + GALLERY.filteredTiles.length) % GALLERY.filteredTiles.length;
     renderModal();
   }
+
   function modalNext(){
     if (!GALLERY.filteredTiles.length) return;
     GALLERY.activeIndex = (GALLERY.activeIndex + 1) % GALLERY.filteredTiles.length;
@@ -364,7 +337,6 @@ function initModal(){
     if (t.type === "collection") {
       const photos = t.data.photos || [];
       const current = photos[0];
-      // Simple strip of thumbnails with clickable selection
       const thumbs = photos.map((p, idx) => `
         <button class="filterBtn ${idx===0?'isActive':''}" type="button" data-idx="${idx}" style="font-weight:850;">
           ${idx+1}
@@ -397,7 +369,6 @@ function initModal(){
       return;
     }
 
-    // single
     body.innerHTML = `
       ${heading}
       <div class="viewerSingle">
@@ -423,15 +394,41 @@ async function initGallery(){
     renderFilters(data.categories || []);
     renderGrid();
   } catch (e){
-    // If something goes wrong, fail silently (site in setup mode)
     grid.innerHTML = "<div class='muted'>Gallery loading is not configured yet.</div>";
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function initServiceJumpButtons() {
+  const buttons = $$(".service__jump[data-gallery-filter]");
+  if (!buttons.length) return;
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const category = (btn.dataset.galleryFilter || "").trim();
+      if (!category) return;
+
+      const projectsSection = $("#projects");
+      if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      setTimeout(() => {
+        const filterButtons = $$("#galleryFilters .filterBtn");
+        const match = filterButtons.find(
+          (fb) => (fb.dataset.category || "").trim().toLowerCase() === category.toLowerCase()
+        );
+
+        if (match) match.click();
+      }, 250);
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
   initNav();
   setBgFromDataAttr();
   initForm();
   initModal();
-  initGallery();
+  await initGallery();
+  initServiceJumpButtons();
 });
